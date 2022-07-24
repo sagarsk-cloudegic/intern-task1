@@ -1,0 +1,25 @@
+.login-input{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    .input{
+        min-width: 100%;
+        box-sizing:border-box;
+        display: block;
+        padding:15px;
+        background-color: #D9D4EF;
+        border: none;
+        border-radius: 8px;
+        margin-top: 5px;
+        box-shadow: 2px 2px 4px rgb(139, 139, 139);
+    }
+    .input:focus{
+        
+        outline: 2px solid  #341950
+    }
+    .label{
+        color: #545454;
+        font-size: 1.2rem;
+        font-weight: bolder;
+    }
+}
